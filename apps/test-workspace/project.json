@@ -96,6 +96,12 @@
       "options": {
         "buildTarget": "test-workspace:build"
       }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "preset": "angular"
+      }
     }
   }
 }
